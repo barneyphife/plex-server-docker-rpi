@@ -30,4 +30,4 @@ jobs:
           context: .
           platforms: linux/arm,linux/arm64
           push: true
-          tags: phifestar/plex-server-docker-rpi:${{ steps.version.outputs.VERSION }},phifestar/plex-server-docker-rpi:latest
+          tags: barneyphife/plex-server-docker-rpi:${{ steps.version.outputs.VERSION }},barneyphife/plex-server-docker-rpi:latest
